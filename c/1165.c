@@ -28,3 +28,4 @@ int isCousin(long long int n)
     for(p = 2; p*p <= n; p++)
         if(n % p == 0) return 1;
     return 0;
+}
