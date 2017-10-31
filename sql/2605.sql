@@ -1,0 +1,1 @@
+SELECT p.name,pp.name FROM products p,providers pp WHERE p.id_categories = 6 AND pp.id = p.id_providers
